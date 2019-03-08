@@ -35,16 +35,6 @@ public class Main {
 
 	public static void DFS(int x, int y, int dir) {
 		
-		System.out.println("---------------------------");
-		for(int i = 0 ; i < n; i++) {
-			for(int j = 0 ; j<m ;j++) {
-				System.out.print(map[i][j] + " ");
-			}
-			System.out.println();
-		}
-		System.out.println(clean + "-------------------------");
-		
-		
 		if(map[x][y] == 1) {
 			return;
 		}
@@ -61,7 +51,7 @@ public class Main {
 			if(dir -1 < 0)
 				nextDir = 3;
 			else
-				nextDir = --dir;
+				nextDir = dir - 1;
 			
 			int nextX = x + dirX[nextDir];
 			int nextY = y + dirY[nextDir];
