@@ -5,6 +5,9 @@ public class Main {
 
 	static int[] dirX = { -1, 0, 1, 0 };
 	static int[] dirY = { 0, 1, 0, -1 };
+	
+	static int[] backX = {1, 0, -1, 0};
+	static int[] backY = {0, -1, 0, 1};
 	static int[][] map = new int[50][50];
 	static int n;
 	static int m;
@@ -32,11 +35,6 @@ public class Main {
 
 	public static void DFS(int x, int y, int dir) {
 		
-		int nextX; 
-		int nextY;
-		// 벽이면 청소를중단 
-		int check = 0;
-		
 		System.out.println("---------------------------");
 		for(int i = 0 ; i < n; i++) {
 			for(int j = 0 ; j<m ;j++) {
@@ -58,48 +56,30 @@ public class Main {
 		
 		for (int i = 0 ; i < 4 ; i++) {
 			
-			//방향이 북에서 서쪽으로 이동 할때 0 -> 3 이 되므로  방향값변
-			if (dir - 1 < 0) {
-				dir = 3;
-			} else {
-				--dir;
-			}
+			int nextDir;
 			
-			nextX = x + dirX[dir];
-			nextY = y + dirY[dir];
-
-			//해당 구역이 청소되었거나 벽일 경우에는 ++;
-			if(map[nextX][nextY] != 0) {
-				check++;
+			if(dir -1 < 0)
+				nextDir = 3;
+			else
+				nextDir = --dir;
+			
+			int nextX = x + dirX[nextDir];
+			int nextY = y + dirY[nextDir];
+			
+			if (map[nextX][nextY] == 0) {
+				
+				DFS(nextX,nextY,nextDir);
+				return;
+				
 			} else {
-				DFS(nextX,nextY,dir);
+				dir = nextDir;
 			}
 		}
-	
-		//후진 해야한다.
-		if(check == 4) {
-			switch(dir) {
-			case 3:
-				x++;
-				break;
-			case 2:
-				y--;
-				break;
-			case 1:
-				x--;
-				break;
-			case 0:
-				y++;
-				break;
-			}
-			DFS(x,y,dir);
-			
-		} else {
-			nextX = x + dirX[dir];
-			nextY = y + dirY[dir];
-			
-			DFS(nextX,nextY,dir);
-		}
+		
+		int nextX = x + backX[dir];
+		int nextY = y + backY[dir];
+		
+		DFS(nextX,nextY,dir);
 		
 	}
 
