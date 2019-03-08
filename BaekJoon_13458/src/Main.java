@@ -6,7 +6,7 @@ public class Main {
 	static int n;
 	static int[] array;
 	static int b,c;
-	static int ans;
+	static long ans;
 	
 	
 	public static void solving() {
