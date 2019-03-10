@@ -30,7 +30,7 @@ void DFS(cnt,currentPeople) {
   }
 ```
 
-## 개선점
+## 개선방향
 
-> DFS를 재귀 탐색이 아는 iterative로 구현하고 메모리에 조금더 신경을 쓸 필요가 있다.
+> DFS를 재귀 탐색이 아닌 iterative로 구현하고 메모리에 조금더 신경을 쓸 필요가 있다.
 
