@@ -14,4 +14,4 @@
 |14503|로봇청소기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14503/src/Main.java)|[출처](https://www.acmicpc.net/problem/14503)|[DFS](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14503/src)|
 |13458|시험감독|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_13458/src/Main.java)|[출처](https://www.acmicpc.net/problem/13458)|Greedy|
 |14501|퇴사|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14501/src/Main.java)|[출처](https://www.acmicpc.net/problem/14501)|[DP](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14501)|
-|14889|스타트 링크|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14889/src/Main.java)|[출처](https://www.acmicpc.net/problem/14889)|DFS|
+|14889|스타트 링크|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14889/src/Main.java)|[출처](https://www.acmicpc.net/problem/14889)|[DFS](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14889)|
