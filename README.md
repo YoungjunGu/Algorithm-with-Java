@@ -18,3 +18,4 @@
 |11047|동전|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_11047/src/Main.java)|[출처](https://www.acmicpc.net/problem/11047)|Greedy|
 |14502|연구소|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14502/src/Main.java)|[출처](https://www.acmicpc.net/problem/14502)|[BFS & Brute Force](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14502)|
 |14888|연산자 끼워넣기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14888/src/Main.java)|[출처](https://www.acmicpc.net/problem/14888)|[DFS](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14888)|
+|14890|경사로|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14890/src/Main.java)|[출처](https://www.acmicpc.net/problem/14890)|[풀이](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14890)|
