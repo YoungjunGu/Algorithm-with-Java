@@ -1,5 +1,5 @@
 # Java를 이용한 알고리즘 문제 풀이
-> 코딩테스트를 위한 준비
+> 코딩테스트를 위한 1일 1알고리즘
 
 ## Reference
 
@@ -19,3 +19,4 @@
 |14502|연구소|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14502/src/Main.java)|[출처](https://www.acmicpc.net/problem/14502)|[BFS & Brute Force](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14502)|
 |14888|연산자 끼워넣기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14888/src/Main.java)|[출처](https://www.acmicpc.net/problem/14888)|[DFS](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14888)|
 |14890|경사로|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_14890/src/Main.java)|[출처](https://www.acmicpc.net/problem/14890)|[풀이](https://github.com/gaki2745/Algorithm-with-Java/tree/master/BaekJoon_14890)|
+|16236|아기 상어|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/BaekJoon_16236/src/Main.java)|[출처](https://www.acmicpc.net/problem/16236)|BFS|
