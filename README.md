@@ -1,6 +1,12 @@
 # Java를 이용한 알고리즘 문제 풀이
 > 코딩테스트를 위한 1일 1알고리즘
 
+- DFS&BFS (Back Tracking)
+- Dynamic Programming
+- Brute Force
+- Greedy
+- Divide & Conquer
+
 ## Reference
 
 * 출처: [BAEKJOON online judge](https://www.acmicpc.net)
