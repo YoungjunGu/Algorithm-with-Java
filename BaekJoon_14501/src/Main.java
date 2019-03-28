@@ -35,6 +35,9 @@ public class Main {
 			}
 		}
 		
+		for(int i = 0 ; i < n ; i ++)
+			System.out.print(dp[i]+ " ");
+		
 		for(int i = 0 ; i < n ; i ++) {
 			if(i + t[i] <= n) {
 				if(max < dp[i])

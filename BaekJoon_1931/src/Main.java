@@ -38,10 +38,11 @@ public class Main {
 			}
 			
 		});
-		
+		/*
 		for(int i = 0; i < n; i++) {
 			System.out.println(list.get(i).start + " " + list.get(i).end);
 		}
+		*/
 		
 		int end = -1;
 		for(int i = 0 ; i < n; i++) {
@@ -59,7 +60,6 @@ public class Main {
 		
 	}
 	
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
