@@ -12,7 +12,7 @@
 ## Reference
 
 * [BAEKJOON online judge](https://www.acmicpc.net)
-* [PROGRMMERS](https://programmers.co.kr)
+* [PROGRAMMERS](https://programmers.co.kr)
 
 
 ## Algorithms
