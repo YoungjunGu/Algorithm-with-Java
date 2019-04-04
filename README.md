@@ -38,7 +38,22 @@
 
 ### 프로그래머스
 
-|Subject|소스|출처|풀이|
-|:---|:---|:---|:---|
-|완주하지 못한 선수|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_완주하지못한선수/src/Main.java)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42576)|Hash|
 
+|Subject|소스|풀이|
+|:---|:---|:---|
+|완주하지 못한 선수|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_완주하지못한선수/src/Main.java)|Hash|
+|124나라의숫자|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_124나라의숫자수/src/Main.java)||
+|k번째수|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_k번째수/src/Main.java)|Sort|
+|탑|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_탑/src/Main.java)|Stack/Queue|
+|더 맵게|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_더맵게/src/Main.java)|Heap|
+|프린터|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_프린터/src/Main.java)|Stack/Queue|
+|모의고사|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_모의고사/src/Main.java)|BruteForce|
+|체육복|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_체육복/src/Main.java)|Greedy|
+|소수찾기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_소수찾기/src/Main.java)|BruteForce|
+|스킬트리|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_스킬트리/src/Main.java)|조건검사|
+|조이스틱|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_조이스틱/src/Main.java)|Greedy|
+|가장큰수|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_가장큰수/src/Main.java)|Sort|
+|기능개발|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_기능개발/src/Main.java)|Stack/Queue|
+|주식가격|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_주식가격/src/Main.java)|Stack/Queue|
+|큰수만들기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_큰수만들기/src/Main.java)|미해결|
+|다리를지나는트럭|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_다리를지나는트럭/src/Main.java)|참고풀이 [출처](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_큰수만들기/src/Main.java)|
