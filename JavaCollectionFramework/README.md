@@ -4,10 +4,7 @@
 
 ## String 다루기
 
-- `charAt(int index)` : 해당 index의 문자값(Character) 반환
-- `indexOf(String keyword)` : 해당 문자열에서 찾고자 하는 keyword의 시작 index 반환
-- `lastIndexOf(String keyword)` : indexOf와 반대로 문자열의 끝에서 왼쪽으로 keyword를 찾아 index 반환
-- `legnth()` : 문자열 길이 반환
+
 - startWith: 문자열이 지정한 문자로 시작하는지 판단 같으면 true반환 아니면 false를 반환한다.(대소문자구별)
 
 ```java
