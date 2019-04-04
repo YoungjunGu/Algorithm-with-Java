@@ -57,3 +57,4 @@
 |주식가격|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_주식가격/src/Main.java)|Stack/Queue|
 |큰수만들기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_큰수만들기/src/Main.java)|미해결|
 |다리를지나는트럭|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_다리를지나는트럭/src/Main.java)|참고풀이 [출처](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_큰수만들기/src/Main.java)|
+|H-Index|[소스](https://github.com/gaki2745/Algorithm-with-Java/tree/master/Programmers_H-index/src/Main.java)|[Sort](https://github.com/gaki2745/Algorithm-with-Java/tree/master/Programmers_H-index)|
