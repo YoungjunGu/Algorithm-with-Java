@@ -35,7 +35,7 @@ public class Solution {
         		answer++;
         }
         
-        System.out.println(answer);   
+         
         return answer;
     }
     
