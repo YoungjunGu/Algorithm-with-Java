@@ -10,7 +10,8 @@ class Solution {
 		for(int[] arr: temp)
 			Arrays.fill(arr, 0);
 	
-		return answer - bfs(n, computers, temp);
+		//System.out.println(bfs(n, computers, temp));
+		return n - bfs(n, computers, temp);
 	}
 	
 	public int bfs(int n,int[][] computers, int[][] temp) {
@@ -41,8 +42,8 @@ class Solution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[][] computers = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
-		new Solution().solution(3, computers);
+		int[][] computers = {{1, 1, 0, 0}, {1, 1, 0, 0}, {0, 0, 1, 1}, {0, 0, 1, 0}};
+		System.out.println(new Solution().solution(4, computers));
 	}
 
 }
