@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class Solution {
 	int answer = 0;
     public int solution(int[] numbers, int target) {

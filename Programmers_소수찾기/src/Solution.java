@@ -5,7 +5,6 @@ public class Solution {
 	static ArrayList<Integer> list = new ArrayList<>();
 
 	public int solution(String numbers) {
-		int[] div = { 2, 3, 5, 7 };
 		int answer = 0;
 
 		bruteForce("", numbers);
@@ -29,16 +28,12 @@ public class Solution {
 					}		
 				}
 			}
-
 			// false 면 소수가 아니다.
 			if (check) {
-				System.out.println(list3.get(i));
 				answer++;
 			}
 
 		}
-
-		System.out.println(answer);
 		return answer;
 	}
 
