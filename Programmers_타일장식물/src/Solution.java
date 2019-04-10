@@ -4,7 +4,7 @@ public class Solution {
 	
     public long solution(int N) {
         long answer = 0;
-        int[] dp = new int[81];
+        long[] dp = new long[81];
         dp[0] = 1;
         dp[1] = 1;
         for(int i = 2 ; i <= N ; i++) {
