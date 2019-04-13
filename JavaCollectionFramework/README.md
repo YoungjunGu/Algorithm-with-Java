@@ -252,3 +252,117 @@ Collections.sort(list, new Comparator<Time>() {
                 }	
 		});
 ```
+
+
+## HashMap
+
+- HashMap(): HashMap 객체를 생성
+
+```java
+HashMap<String , Integer> map = new HashMap<String , Integer>();
+
+      Map<String, Integer> map = new HashMap<String, integer>();
+```
+
+- HashMap(int initlalCapacity): 지정된 값을 초기 용량으로 하는 HashMap객체를 생성한다.
+
+- HashMap(int initlalCapacity, float loadFactory) : 지정된 값을 초기용량과 load factory의 HashMap 객체를 생성한다. 
+
+- HashMap(Map m) : 주어진 Map에 저장된 모든 요소를 포함하는 HashMap을 생성한다. 
+
+- void clear(): HashMap에 저장된 모든 객체를 제거한다. 
+
+```java
+map.clear();
+```
+
+- Object clone(): 현재 HashMap을 복제하여 반환한다.
+
+```java
+ex) newmap = (HashMap)map.clone();
+```
+
+- boolean containsKey(Object Key): HashMap에 저장된 Key - Value갑슬 엔트리(키와 값을 결합)의 형태로 Set에 저장하여 반환
+
+```java
+      map.put("A", 1);
+
+      map.put("B", 2);
+
+      map.put("C", 3);
+
+      Set set = map.entrySet();
+
+      System.out.println("set values are" + set);
+
+      (result) set values : [A=1,B=2,C=3]
+```
+
+- Object get(Object Key) :지정된 Key 의 값을 반환한다. 
+
+```java
+      map.put("A", 1);
+
+      map.put("B", 2);
+
+      map.put("C", 3);
+
+      String  val = (String)map.get("B");
+
+      System.out.println("Value for key B is: " + val);
+
+  
+
+ (result) 
+Value 
+for key B is 2
+```
+
+- bloolean isEmpty: HashMap이 비어있는지 확인한다.
+
+```java
+boolean val = map.isEmpty();
+//비었으면 true 비지 않았으면 false
+```
+
+- Set keySet(): HashMap에 저장된 모든 키가 저장된 Set을 반환한다.
+
+```java
+      map.put("A", 1);
+
+      map.put("B", 2);
+
+      map.put("C", 3);
+
+      Set keyset = map.keySet();
+
+      System.out.println("Key set values are" + keyset);
+
+      (result) 
+      Key set values are [A,B,C]
+```
+
+- Object put(Object Key, Object Value): HashMap에 키와 값을 저장.
+
+```java
+      map.put("A", "aaa");
+
+      map.put("B", "bbb");
+
+      map.put("C", "ccc");
+```
+
+- void putAll(Map m) : Map에 해당하는 모든 요소를 HashMap에 저장한다. 
+
+- Object remove(Object Key) : HashMap에서 지정된 키로 지정된 값을 제거한다.
+
+ex) map.remove("key");
+
+- int size() : HashMap에 저장된 요소의 개수를 반환한다. 
+
+- Collection values(): HashMap에 저장된 모든 값을 컬렉션 형태로 반환한다.
+
+출처: https://vaert.tistory.com/107 [Vaert Street]
+
+
+
