@@ -11,9 +11,6 @@ class Solution
         for(int i = 0 ; i < A.length; i++) {
         	answer += A[i] * B[A.length - i -1];
         }
-        
-        System.out.println(answer);
-
         return answer;
     }
 	public static void main(String[] args) {

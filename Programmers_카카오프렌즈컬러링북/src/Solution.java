@@ -4,7 +4,7 @@ class Solution {
 	
 	static int[] dirX = {0, 1, 0, -1};
 	static int[] dirY = {-1, 0, 1, 0};
-	static ArrayList<Integer> fieldCntList = new ArrayList<>();
+	
 	int numberOfArea = 0;
 	int maxSizeOfOneArea = 0;
 	public int[] solution(int m, int n, int[][] picture) {
@@ -15,7 +15,6 @@ class Solution {
 			Arrays.fill(arr,0);
 		}
 	
-		
 		bfs(m,n,picture,temp);
 		
 
@@ -26,7 +25,7 @@ class Solution {
 	}
 	
 	public void bfs(int m, int n, int[][] picture, int[][] temp) {
-		
+		ArrayList<Integer> fieldCntList = new ArrayList<>();
 		Queue<Pos> queue = new LinkedList<Pos>();
 		int field = 0;
 		for(int i = 0 ; i < m; i++) {
