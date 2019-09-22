@@ -64,3 +64,4 @@
 |카펫|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_카펫/src/Solution.java)|DP(오류수정필요)|
 |가장큰정사각형찾기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_가장큰정사각형찾기/src/Solution.java)|DP(예외처리필요)|
 |땅따먹기|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_땅따먹기/src/Solution.java)|[DP](https://github.com/gaki2745/Algorithm-with-Java/tree/master/Programmers_땅따먹기)|
+|예산|[소스](https://github.com/gaki2745/Algorithm-with-Java/blob/master/Programmers_예산/src/Solution.java)|BinarySearch|
