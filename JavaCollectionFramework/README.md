@@ -4,6 +4,14 @@
 
 ## String 다루기
 
+- split("\\s",""): 문자열에 기초하여 문자열을 나눈다.
+
+```java
+String str = "123    34    56  78"
+String[] splitStr = str.split("\\s","");
+System.out.println(splitStr.toString());
+결과값: "12345678"
+```
 
 - startWith: 문자열이 지정한 문자로 시작하는지 판단 같으면 true반환 아니면 false를 반환한다.(대소문자구별)
 
